@@ -13,7 +13,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 
 	var htmlHeader = "<!DOCTYPE html><html><h2>Simple web app</h2>"
 	fmt.Fprintf(w, htmlHeader)
-	fmt.Fprintf(w, "<body style=background-color:%s><p>\Demo Running on: %s</p></body></html>", backColor, hostPlatform)
+	fmt.Fprintf(w, "<body style=background-color:%s><p>\This demo Running on: %s</p></body></html>", backColor, hostPlatform)
 
 }
 
